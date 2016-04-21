@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>JavaScript Practice</title>
+	<meta charset="utf-8">
+	<style>
+	#details { display: none; }
+	</style>
+	<script
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+	</script>
+	<script>
+	$(document).ready(function() {
+		$('a').click(function() {
+			$('li:even').css('color', '#006600');
+		});
+		$('#more').click(function() {
+			//$('#details').toggle();
+			//$('#details').fadeToggle(2000);
+			$('#details').slideToggle('fast');
+		});
+	});
+	</script>
+</head>
+<body>
+	<h1>My Favorite Dogs</h1>
+	<ul>
+		<li>Pekingnese</li>
+		<li>Schnauzer</li>
+		<li>Border Collie</li>
+	</ul>
+	<a href="#">Click Me</a>
+	<h2>jQuery</h2>
+	<p>Many websites, including Amazon and Google, use jQuery, to provide interaction and dynamic effects on web pages. <a href="#" id="more">More</a></p>
+	<div id="details"><p>The jQuery API (application progrraming interface) works along with JavaScript and provides easy ways to dynamically manipulate the CSS properties of elements, detect and react to events (such as mouse movements), and animate elements on a web page, such as image slideshows.</p>
+	</div>
+</body>
+</html>

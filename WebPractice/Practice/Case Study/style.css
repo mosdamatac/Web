@@ -1,0 +1,43 @@
+nav { float: left;
+	width: 15%;
+	height: 100%;
+	background-color: #fcf3e9;
+	margin: 0;
+	padding-left: auto;
+	padding-right: auto;
+	color: #9b6217; }
+nav ul li { list-style-type: none; s}
+#rightcol { margin: 0;
+	width: auto;
+	height: 100%;
+	overflow: hidden;
+	background-color: #ecd7bb;
+	padding: 2em 3em 4em 3em; }
+footer { clear: both;
+	text-align: center; }
+h1 { text-align: center;
+	color: #9b6217;
+	font-family: "Lucida Calligraphy", Bradley Hand ITC, serif;
+	background-color: #f3d6b0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0; }
+#wrapper { width: 80%;
+	height: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 600px; }
+body { background-color: #f7e6ce; }
+h3 { background color: #fcf3e9;
+	border-bottom: 2px solid grey;
+	margin-bottom: 2em;
+	color: #9b6217; }
+.audio-content { width: 300px;
+	margin-left: auto;
+	margin-right: auto; }
+footer { background-color: #f3d6b0;
+	font-style: italic;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: .75em; }
+footer span { color: white; }

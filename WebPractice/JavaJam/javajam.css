@@ -1,0 +1,49 @@
+body {
+	background-color: #ffffcc;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	background-color: #ccaa66;
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+ul {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #330000;
+}
+
+nav {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+footer {
+	background-color: #ccaa66;
+	font-size: .75em;
+	text-align: center;
+	font-style: italic;
+}
+
+dl li {
+	font-size: 1.5em;
+}
+
+.wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #330000;
+}
+
+#menu-items {
+	list-style: none;
+	padding-left: 0;
+}

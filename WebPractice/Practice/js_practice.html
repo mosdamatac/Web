@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>JavaScript Practice</title>
+	<meta charset="utf-8">
+	<script>
+	//var userColor;
+	//userColor = prompt("Please type the color name blue or red");
+	//document.bgColor = userColor;
+	function promptQuantity() {
+		var quantity;
+		quantity = prompt("Type a quantity greater 0");
+		if (quantity <= 0) {
+			alert("Quantity is not greater than 0.");
+		} else {
+			alert("Thank you for entering a quantity greater than 0.");
+		} // end if
+	} // end of function promptQuantity
+	</script>
+</head>
+<body>
+	<h1>Using JavaScript</h1>
+	<ul>
+		<li><a href="#" onmouseover="alert('You moused over');">Mouseover test</a></li>
+		<li><a href="#" onmouseout="alert('You moused out');">Mouseout test</a></li>
+	</ul>
+	<input type="button" value="Click to enter quantity" onclick="promptQuantity();">
+	<script>
+	document.write("<h3>This document was last modified on: " + document.lastModified + "</h3>");
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <!-- overall structure -->
+    <fo:layout-master-set>
+        <fo:simple-page-master master-name="wonders" page-width="8.5in" page-height="11in" margin="1in">
+            <fo:region-body/> <!-- declare that this page master will contain content in body region -->
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    
+    <!-- formats and page contents -->
+    <fo:page-sequence master-reference="wonders">
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block font-size="24pt" space-after="0.2in">
+                Colossus of Rhodes
+            </fo:block>
+            <fo:block font-size="14pt">
+                <fo:block space-after="0.075in">
+                    <fo:external-graphic src="colossus.jpg" content-height="50%" border-style="ridge" border-width="2pt"/>
+                </fo:block>
+                <fo:block space-after="0.1in">
+                    In 294 BC, the people of the island of Rhodes began building a colossal statue of the sun god Helios.  They believed that it was because of his blessings that they were able to withstand a long siege on the island and emerge victorious.<para/>The Colossus was built with bronze, reinforced with iron, and weighted with stones.  While it is often depicted straddling Mandrákion harbor, this is now considered technically impossible; and therefore, it likely stood beside the harbor.<para/>The statue was toppled by an earthquake in 226 BC.  It snapped at the knees and fell over on to the land.  The Oracle of Delphi suggested that it fell because the people of Rhodes had offended Helios, and they decided not to rebuild it.<para/>The statue remained on the ground until 654 AD., and even broken, it was so impressive that many traveled to see it.
+                </fo:block>
+                <fo:block space-after="0.1in">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer congue est at tempus semper. Pellentesque vel faucibus turpis, sit amet euismod dolor. Donec porta aliquam eleifend. Ut sed leo fringilla, lacinia felis et, tempor nibh. Mauris non varius est. Maecenas aliquet imperdiet quam eu vehicula. Fusce rhoncus lobortis hendrerit. Proin et sodales lorem. Nullam maximus sagittis tristique.
+                </fo:block>
+                <fo:block space-after="0.1in">
+                    Nunc nec malesuada ligula. Proin placerat pellentesque elit at aliquet. Nulla laoreet mi purus, lobortis imperdiet diam sagittis sed. Phasellus ac elementum nisi, at fermentum tellus. Etiam rhoncus et felis vel volutpat. Nam iaculis metus pellentesque vehicula dignissim. Integer a est et odio accumsan aliquet. Sed eget semper enim, eget posuere mi.
+                </fo:block>
+            </fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>
